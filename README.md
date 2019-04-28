@@ -1,0 +1,2 @@
+# soonews
+News Application
