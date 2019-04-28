@@ -21,7 +21,7 @@ class HomeViewController: UIViewController{
     var filterArticleArray = [NewsDataModelArticle]()
     let noCache : String = "no-cache"
     let applicationJon : String = "application/json"
-    let search = "Search"
+    let search = "Today's Highlights"
     let newsArticlesTableViewCellIdentifier = "NewsArticlesTableViewCell"
     let webViewControllerIdentifier = "WebViewController"
     let mainThread = DispatchQueue.main

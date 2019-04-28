@@ -26,11 +26,17 @@ class NewsArticlesTableViewCell: UITableViewCell {
     func initialiseView(){
         baseView.layer.cornerRadius = 10
         articleThumbnailImageView.layer.cornerRadius = 10
+        backgroundViewForTitle.layer.cornerRadius = 10
+        
         articleThumbnailImageView.clipsToBounds = true
+        backgroundViewForTitle.clipsToBounds = true
+        
         articleTitleLabel.textColor = UIColor.white
-        articleTitleLabel.font = UIFont.systemFont(ofSize: 12, weight: .medium)
         sourceNameLabel.textColor = UIColor.white
+        
+        articleTitleLabel.font = UIFont.systemFont(ofSize: 12, weight: .medium)
         sourceNameLabel.font = UIFont.italicSystemFont(ofSize: 10)
+        
         backgroundViewForTitle.backgroundColor = UIColor.black.withAlphaComponent(0.5)
     }
 }
