@@ -25,7 +25,7 @@ class HomeViewController: UIViewController{
     let newsArticlesTableViewCellIdentifier = "NewsArticlesTableViewCell"
     let webViewControllerIdentifier = "WebViewController"
     let mainThread = DispatchQueue.main
-    let cellSize : CGFloat = 250
+    let cellSize : CGFloat = 280
     
     //MARK: - LIFE CYCLE METHODS
     override func viewDidLoad() {
